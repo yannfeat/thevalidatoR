@@ -1,8 +1,8 @@
 ---
-name: Test the validation pipeline reusable workflow
+name: Test the validation pipeline reusable workflow (self-hosted)
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 
