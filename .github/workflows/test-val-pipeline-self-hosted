@@ -3,8 +3,11 @@ name: Test the validation pipeline reusable workflow (self-hosted)
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
 
 jobs:
   test-val-pipeline-self-hosted-aragog:
