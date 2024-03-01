@@ -1,5 +1,5 @@
 ---
-name: Reusable workflow for the validation pipeline (running on a self-hosted runner)
+name: Reusable workflow for the validation pipeline for self-hosted runners
 
 on:
   workflow_call:
