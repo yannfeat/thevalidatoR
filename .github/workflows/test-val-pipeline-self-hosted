@@ -7,8 +7,8 @@ on:
       - main
 
 jobs:
-  test-val-pipeline-aragog:
-    uses: ./.github/workflows/val-pipeline.yaml
+  test-val-pipeline-self-hosted-aragog:
+    uses: ./.github/workflows/val-pipeline-self-hosted.yaml
     with:
       target: aragog
       report_pkg_dir: ./tests/packages/aragog
