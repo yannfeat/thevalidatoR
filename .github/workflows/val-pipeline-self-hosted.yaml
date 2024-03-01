@@ -40,7 +40,7 @@ jobs:
           cat $GITHUB_OUTPUT
 
   val-pipeline-dependencies-self-hosted:
-    needs: dependencies-matrix
+    needs: dependencies-matrix-self-hosted
     runs-on: self-hosted
     name: Validation outputs for dependencies (self-hosted)
     container:
