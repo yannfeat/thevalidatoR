@@ -7,8 +7,6 @@ on:
   pull_request:
     branches: [ "main" ]
 
-  workflow_dispatch:
-
 jobs:
   test-val-pipeline-self-hosted-aragog:
     uses: ./.github/workflows/val-pipeline-self-hosted.yaml
