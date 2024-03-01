@@ -1,5 +1,5 @@
 ---
-name: Test the validation pipeline reusable workflow self-hosted)
+name: Test the validation pipeline reusable workflow on a self-hosted runner
 
 on:
   push:
