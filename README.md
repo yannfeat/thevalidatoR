@@ -7,4 +7,5 @@ For more information on the Working Group, see [pharmaR/regulatory-r-repo-wg](ht
 ## Author
 
 Roche
+
 R Validation Hub's Regulatory R Repository WG
